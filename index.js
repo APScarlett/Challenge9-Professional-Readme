@@ -14,9 +14,17 @@ const questions = [{
     choices:["MIT","Apache","IBM","No liscense"]
 }
 ];
-
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+   const content=generateMarkdown(data,content,err=>{
+        if(err){
+            console.error(err)
+            return
+        }
+        console.log("Success!")
+   })
+    fs.writeToFile(fileName)
+}
 
 // TODO: Create a function to initialize app
 function init() {
