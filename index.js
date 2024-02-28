@@ -9,7 +9,7 @@ const questions = [{
         name:'title',
 }, {
         type:'list',
-        message:"Which Liscense are you using?",
+        message:"Which license are you using?",
         name: 'license',
         choices:["MIT","Apache","IBM","No license"]
 },{
@@ -29,10 +29,10 @@ const questions = [{
         message:'Please list any contributors towards this project.',
         name:'contributors',
 },{
-    type:'input',
-    message:'Please enter: node index.js to run tests ',
-    name:'tests',
-    default:'node index.js',
+        type:'input',
+        message:'Please enter: node index.js to run tests ',
+        name:'tests',
+        default:'node index.js',
 }
   ];
 // TODO: Create a function to write README file
