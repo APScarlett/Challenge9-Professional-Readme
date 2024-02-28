@@ -8,22 +8,43 @@ const questions = [{
         message:"What is your projects title?",
         name:'title',
 }, {
-    type:'list',
-    message:"Which Liscense are you using?",
-    name: 'liscense',
-    choices:["MIT","Apache","IBM","No liscense"]
+        type:'list',
+        message:"Which Liscense are you using?",
+        name: 'license',
+        choices:["MIT","Apache","IBM","No license"]
+},{
+        type: 'input',
+        message:"Give a brief Description of the project.",
+        name:'description',
+},{
+        type:'input',
+        message:'Does this program require any installations? If so please list them',
+        name:'installation',
+},{     
+        type:'input',
+        message:'what was the goal of this project?',
+        name:'usage'
+},{
+        type:'input',
+        message:'Please list any contributors towards this project.',
+        name:'contributors',
+},{
+    type:'input',
+    message:'Please enter: node index.js to run tests ',
+    name:'tests',
+    default:'node index.js',
 }
-];
+  ];
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-   const content=generateMarkdown(data,content,err=>{
+   const content=generateMarkdown(data)
+    fs.writeFile(fileName,content,err=>{
         if(err){
             console.error(err)
             return
         }
         console.log("Success!")
-   })
-    fs.writeToFile(fileName)
+    })
 }
 
 // TODO: Create a function to initialize app
