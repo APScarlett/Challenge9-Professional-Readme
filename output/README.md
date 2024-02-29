@@ -1,9 +1,9 @@
-# test
+# Challenge 9 professional readme
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
  ## Description
-  test
+  This project was created as an easy way to generate a readme file
   
   ## Table of Contents (Optional)
   
@@ -14,22 +14,22 @@
   
   ## Installations
   Installations required include:
- test
+ npm i
 
   
   ## Usage
   
- test
+ to be lazy
       
   
   ## Contributors
   
-  test
+  me and nelks
   
   
  ## License
 
- undefined
+ Licensed Name MIT
   
   ## Tests
   To test this program please do the following:
