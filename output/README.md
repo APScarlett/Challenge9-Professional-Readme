@@ -1,9 +1,9 @@
-# Challenge 9 professional readme
+# Challenge 9 Professional README GENERATOR
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
  ## Description
-  This project was created as an easy way to generate a readme file
+  This project will be used to generate a professional readme in a timely manner.
   
   ## Table of Contents (Optional)
   
@@ -19,17 +19,17 @@
   
   ## Usage
   
- to be lazy
+ The goal of this project is to get a better understanding of node.js as well as give me a convenient option for creating a readme.
       
   
   ## Contributors
   
-  me and nelks
+  Alexander Scarlett
   
   
  ## License
 
- Licensed Name MIT
+ License Name MIT
   
   ## Tests
   To test this program please do the following:
