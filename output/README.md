@@ -1,4 +1,4 @@
-# Challenge 9 Professional README GENERATOR
+# Professional README GENERATOR
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
@@ -7,9 +7,9 @@
   
   ## Table of Contents (Optional)
   
-  - [Installation](#installation)
+  - [Installations](#installations)
   - [Usage](#usage)
-  - [Credits](#credits)
+  - [Contributors](#contributors)
   - [License](#license)
   
   ## Installations
